@@ -43,14 +43,15 @@ Thus, it can be said that in a floating-point multiplication, mantissas are mult
 Floating point multiplication can be clearer with an example. Let’s discuss a multiplication operation between two numbers _b = 6.5_ and _a = 3_ . The result of the multiplication operation is _19.5_ .
 
 
-Example: Floating Point Multiplication
-	* Representation: The input operands are represented as a = 0_1001_10100000000 and b = 0_1000_10000000000.
+**Example: Floating Point Multiplication**
+	
+* Representation: The input operands are represented as a = 0_1001_10100000000 and b = 0_1000_10000000000.
 
-	* Sign extraction: As both the numbers are positive then sign of the output will be positive. Thus S = 0.
+* Sign extraction: As both the numbers are positive then sign of the output will be positive. Thus S = 0.
 
-	* Exponent addition: The value of E_a = 1001 and E_b= 1000 . Thus, result of the addition is E = 10001 . The bias is subtracted from this value. Thus, new               value of E is 1010.
+* Exponent addition: The value of E_a = 1001 and E_b= 1000 . Thus, result of the addition is E = 10001 . The bias is subtracted from this value. Thus, new               value of E is 1010.
 
-	* Mantissa multiplication: Multiply the mantissas by any multiplicative algorithms used in the fixed-point arithmetic. The width of the product is 24-bit, but           the final output is truncated to 11-bits. The 13-bits of the product starting from the MSB is 1001110000000.
+* Mantissa multiplication: Multiply the mantissas by any multiplicative algorithms used in the fixed-point arithmetic. The width of the product is 24-bit, but           the final output is truncated to 11-bits. The 13-bits of the product starting from the MSB is 1001110000000.
 
 
 Generally, the 11-bits from the LSB are the required result but here the MSB is 1 this indicate that the result is greater than 1 . Thus, this value is shifted right by 1-bit and the new result is 0100111000000. The final value of the mantissa (M ) is 00111000000 excluding the hidden bit.
