@@ -67,6 +67,9 @@ The final result is 0_1011_00111000000 which is equivalent to 19.5 in decimal.
 # 3. Pipelined Multiplication Architecture 
 ![Floating-Point-Multiplier-Architecture](https://user-images.githubusercontent.com/72949261/213872180-2e4ff45c-b3ef-4a2c-b215-f92abcfd3e99.png)
 
+
+
 * If we need to apply this on the previos example it will be as the following diagram
+
 ![image](https://user-images.githubusercontent.com/72949261/213872251-a0814c1c-d8fd-425f-80eb-44224cfe4f04.png)
 
