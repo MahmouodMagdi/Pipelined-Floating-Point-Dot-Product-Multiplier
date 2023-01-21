@@ -12,7 +12,7 @@ This is contains a Verilog Implementation of a pipelined FPDPM
 6.	Simulation Results
 
 
-# 1.  IEEE 754 Floating-Point Representation Standard.
+# 1.  IEEE 754 Floating-Point Representation Standard
    * Single Precison Representation
    ![image](https://user-images.githubusercontent.com/72949261/213871537-4b67640e-978e-40a1-837a-771ed56a020d.png)
 
