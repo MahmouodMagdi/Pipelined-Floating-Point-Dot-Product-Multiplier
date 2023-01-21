@@ -35,7 +35,6 @@ Floating point multiplication is comparatively easy than the floating-point addi
 
 
 Thus, it can be said that in a floating-point multiplication, mantissas are multiplied, and exponents are added. The major steps for a floating-point division are:
-	
   	1.  Extract the sign of the result from the two sign bits.
 	2.  Add the two exponents ( E ). Subtract the bias component from the summation.
 	3.  Multiply mantissa of b ( M_b ) by mantissa of a ( M_a ) considering the hidden bits.
@@ -45,7 +44,6 @@ Floating point multiplication can be clearer with an example. Let’s discuss a 
 
 
 Example: Floating Point Multiplication
-
 	* Representation: The input operands are represented as a = 0_1001_10100000000 and b = 0_1000_10000000000.
 
 	* Sign extraction: As both the numbers are positive then sign of the output will be positive. Thus S = 0.
